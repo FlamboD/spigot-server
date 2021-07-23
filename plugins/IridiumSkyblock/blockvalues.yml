@@ -1,0 +1,35 @@
+---
+blockValues:
+  IRON_BLOCK:
+    value: 3.0
+    name: "&b&lIron Block"
+    slot: 10
+  GOLD_BLOCK:
+    value: 5.0
+    name: "&b&lGold Block"
+    slot: 11
+  DIAMOND_BLOCK:
+    value: 10.0
+    name: "&b&lDiamond Block"
+    slot: 12
+  EMERALD_BLOCK:
+    value: 20.0
+    name: "&b&lEmerald Block"
+    slot: 13
+  NETHERITE_BLOCK:
+    value: 150.0
+    name: "&b&lNetherite Block"
+    slot: 14
+  HOPPER:
+    value: 1.0
+    name: "&b&lHopper"
+    slot: 15
+  BEACON:
+    value: 150.0
+    name: "&b&lBeacon"
+    slot: 16
+spawnerValues:
+  PIG:
+    value: 100.0
+    name: "&b&lPig Spawner"
+    slot: 10
