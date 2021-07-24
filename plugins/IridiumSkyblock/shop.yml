@@ -60,6 +60,16 @@ categories:
       lore: []
       slot: 23
     inventoryRows: 4
+  Spawners:
+    item:
+      material: "SPAWNER"
+      amount: 1
+      displayName: "&9&lSpawners"
+      headData: null
+      headOwner: null
+      lore: []
+      slot: 24
+    inventoryRows: 4
 items:
   Blocks:
   - name: "&9&lGrass Block"
@@ -1050,6 +1060,31 @@ items:
     buyCost:
       vault: 5000.0
       crystals: 50
+    sellReward:
+      vault: 0.0
+      crystals: 0
+  Spawners:
+  - name: "&9&lEgg"
+    type: "EGG"
+    lore: []
+    command: null
+    defaultAmount: 1
+    slot: 12
+    buyCost:
+      vault: 100.0
+      crystals: 0
+    sellReward:
+      vault: 10.0
+      crystals: 0
+  - name: "&9&lZombie spawner"
+    type: "SPAWNER"
+    lore: []
+    command: null
+    defaultAmount: 1
+    slot: 13
+    buyCost:
+      vault: 100.0
+      crystals: 0
     sellReward:
       vault: 0.0
       crystals: 0
