@@ -1076,6 +1076,19 @@ items:
     sellReward:
       vault: 10.0
       crystals: 0
+  - name: "&9&lZombie spawner"
+    type: "SPAWNER"
+    damage: 1
+    lore: []
+    command: null
+    defautAmount: 1
+    slot: 13
+    buyCost:
+      vault: 100.0
+      crystals: 0
+    sellReward:
+      vault: 0.0
+      crystals: 0
 overviewTitle: "&7Island Shop"
 categoryTitle: "&7Island Shop | %category_name%"
 buyPriceLore: "&aBuy Price: $%buy_price_vault%, %buy_price_crystals% Crystals"
