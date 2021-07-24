@@ -52,15 +52,6 @@ categories:
     inventoryRows: 5
   Miscellaneous:
     item:
-      material: "SADDLE"
-      amount: 1
-      displayName: "&9&lMiscellaneous"
-      headData: null
-      headOwner: null
-      lore: []
-      slot: 23
-    inventoryRows: 4
-    item:
       material: "SPIDER_EYE"
       amount: 1
       displayName: "&9&lMob Drops"
