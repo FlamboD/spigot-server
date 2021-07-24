@@ -1,577 +1,702 @@
-[11:46:02] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[11:46:04] [main/INFO]: Reloading ResourceManager: Default, bukkit
-[11:46:09] [Worker-Main-11/INFO]: Loaded 7 recipes
-[11:46:20] [Server thread/INFO]: Starting minecraft server version 1.17.1
-[11:46:20] [Server thread/INFO]: Loading properties
-[11:46:21] [Server thread/INFO]: This server is running CraftBukkit version 3202-Spigot-18c71bf-64d149a (MC: 1.17.1) (Implementing API version 1.17.1-R0.1-SNAPSHOT)
-[11:46:22] [Server thread/INFO]: Debug logging is disabled
-[11:46:22] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[11:46:22] [Server thread/INFO]: Using 4 threads for Netty based IO
-[11:46:22] [Server thread/INFO]: Default game type: SURVIVAL
-[11:46:22] [Server thread/INFO]: Generating keypair
-[11:46:22] [Server thread/INFO]: Starting Minecraft server on *:25565
-[11:46:23] [Server thread/INFO]: Using default channel type
-[11:46:23] [Server thread/WARN]: Failed to find a usable hardware address from the network interfaces; using random bytes: c0:b0:14:f4:3c:50:5a:f8
-[11:46:28] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.3.47
-[11:46:30] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
-[11:46:30] [Server thread/INFO]: [CustomOreGen] Loading CustomOreGen v1.3.31-SNAPSHOT
-[11:46:30] [Server thread/INFO]: [IridiumSkyblock] Loading IridiumSkyblock v3.0.6
-[11:46:35] [Server thread/INFO]: [EconomyPlus] Loading EconomyPlus v1.6
-[11:46:35] [Server thread/INFO]: [QuickShop] Loading QuickShop v4.0.9.7
-[11:46:35] [Server thread/INFO]: [QuickShop] QuickShop Reremake - Early boot step - Booting up...
-[11:46:36] [Server thread/INFO]: [QuickShop] [OK] Signature Verify
-[11:46:36] [Server thread/INFO]: [QuickShop] Reading the configuration...
-[11:46:37] [Server thread/INFO]: [QuickShop] Loading plugin translations files...
-[11:46:37] [Server thread/WARN]: [QuickShop] Unable to get language code, guessingen_en instead, If it's incorrect, please change game-language option in config.yml.
-[11:46:37] [Thread-5/INFO]: [QuickShop] Loading required files from Mojang API, Please allow up to 20 secs.
-[11:46:40] [Thread-5/WARN]: [QuickShop] Failed to update game assets from MojangAPI server because the language code en_en not supported by Minecraft.
-[11:46:40] [Server thread/INFO]: [QuickShop] Translator: Ghost_chu, Andre_601
-[11:46:40] [Server thread/INFO]: [QuickShop] Contributors: Timtower, Netherfoam, KaiNoMood, Mgazul, JackTheChicken and Andre_601
-[11:46:40] [Server thread/INFO]: [QuickShop] Language Zone: English (en_US)
-[11:46:40] [Server thread/INFO]: [QuickShop] Loading up integration modules.
-[11:46:40] [Server thread/INFO]: [QuickShop] QuickShop Reremake - Early boot step - Booted up...
-[11:46:40] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.3.47
-[11:46:42] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
-[11:46:42] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms[m [0;36;1mv5.3.47[m
-[11:46:42] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
-[11:46:42] [Server thread/INFO]: [m
-[11:46:42] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[11:46:44] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[11:46:46] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[11:46:47] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[11:46:47] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 6824ms)
-[11:46:47] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[11:46:48] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[11:46:48] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[11:46:48] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[11:46:48] [Server thread/INFO]: Preparing level "world"
-[11:46:49] [Server thread/INFO]: -------- World Settings For [world] --------
-[11:46:49] [Server thread/INFO]: Mob Spawn Range: 6
-[11:46:49] [Server thread/INFO]: Experience Merge Radius: 3.0
-[11:46:49] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[11:46:49] [Server thread/INFO]: Cane Growth Modifier: 100%
-[11:46:49] [Server thread/INFO]: Melon Growth Modifier: 100%
-[11:46:49] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[11:46:49] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[11:46:49] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[11:46:49] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[11:46:49] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[11:46:49] [Server thread/INFO]: Potato Growth Modifier: 100%
-[11:46:49] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[11:46:49] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[11:46:49] [Server thread/INFO]: Vine Growth Modifier: 100%
-[11:46:49] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[11:46:49] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[11:46:49] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[11:46:49] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[11:46:49] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[11:46:49] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[11:46:49] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[11:46:49] [Server thread/INFO]: Max TNT Explosions: 100
-[11:46:49] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[11:46:49] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[11:46:49] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[11:46:49] [Server thread/INFO]: Item Despawn Rate: 6000
-[11:46:49] [Server thread/INFO]: Item Merge Radius: 2.5
-[11:46:49] [Server thread/INFO]: View Distance: 10
-[11:46:49] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[11:46:49] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[11:46:49] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[11:46:49] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[11:46:49] [Server thread/INFO]: Mob Spawn Range: 6
-[11:46:49] [Server thread/INFO]: Experience Merge Radius: 3.0
-[11:46:49] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[11:46:49] [Server thread/INFO]: Cane Growth Modifier: 100%
-[11:46:49] [Server thread/INFO]: Melon Growth Modifier: 100%
-[11:46:49] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[11:46:49] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[11:46:49] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[11:46:49] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[11:46:49] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[11:46:49] [Server thread/INFO]: Potato Growth Modifier: 100%
-[11:46:49] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[11:46:49] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[11:46:49] [Server thread/INFO]: Vine Growth Modifier: 100%
-[11:46:49] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[11:46:49] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[11:46:49] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[11:46:49] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[11:46:49] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[11:46:49] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[11:46:49] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[11:46:49] [Server thread/INFO]: Max TNT Explosions: 100
-[11:46:49] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[11:46:49] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[11:46:49] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[11:46:49] [Server thread/INFO]: Item Despawn Rate: 6000
-[11:46:49] [Server thread/INFO]: Item Merge Radius: 2.5
-[11:46:49] [Server thread/INFO]: View Distance: 10
-[11:46:49] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[11:46:49] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[11:46:49] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[11:46:50] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[11:46:50] [Server thread/INFO]: Mob Spawn Range: 6
-[11:46:50] [Server thread/INFO]: Experience Merge Radius: 3.0
-[11:46:50] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[11:46:50] [Server thread/INFO]: Cane Growth Modifier: 100%
-[11:46:50] [Server thread/INFO]: Melon Growth Modifier: 100%
-[11:46:50] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[11:46:50] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[11:46:50] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[11:46:50] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[11:46:50] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[11:46:50] [Server thread/INFO]: Potato Growth Modifier: 100%
-[11:46:50] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[11:46:50] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[11:46:50] [Server thread/INFO]: Vine Growth Modifier: 100%
-[11:46:50] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[11:46:50] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[11:46:50] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[11:46:50] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[11:46:50] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[11:46:50] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[11:46:50] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[11:46:50] [Server thread/INFO]: Max TNT Explosions: 100
-[11:46:50] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[11:46:50] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[11:46:50] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[11:46:50] [Server thread/INFO]: Item Despawn Rate: 6000
-[11:46:50] [Server thread/INFO]: Item Merge Radius: 2.5
-[11:46:50] [Server thread/INFO]: View Distance: 10
-[11:46:50] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[11:46:50] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[11:46:50] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[11:46:50] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[11:46:53] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[11:47:16] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[11:47:16] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[11:47:16] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[11:47:16] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[11:47:16] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[11:47:16] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[11:47:16] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[11:47:16] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[11:47:16] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[11:47:16] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[11:47:16] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[11:47:16] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[11:47:16] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[11:47:16] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[11:47:16] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[11:47:16] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[11:47:16] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[11:47:16] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[11:47:16] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[11:47:16] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[11:47:17] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[11:47:17] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[11:47:17] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[11:47:17] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[11:47:17] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[11:47:17] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[11:47:17] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[11:47:17] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[11:47:17] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[11:47:17] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[11:47:17] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[11:47:17] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[11:47:17] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[11:47:17] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[11:47:17] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[11:47:17] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[11:47:17] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[11:47:17] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[11:47:17] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[11:47:17] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[11:47:17] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[11:47:17] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[11:47:17] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[11:47:17] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[11:47:17] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[11:47:17] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[11:47:17] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[11:47:17] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[11:47:17] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[11:47:17] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[11:47:17] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[11:47:17] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[11:47:17] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[11:47:17] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[11:47:17] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[11:47:18] [Worker-Main-8/INFO]: Preparing spawn area: 2%
-[11:47:18] [Worker-Main-10/INFO]: Preparing spawn area: 8%
-[11:47:19] [Worker-Main-9/INFO]: Preparing spawn area: 9%
-[11:47:19] [Worker-Main-9/INFO]: Preparing spawn area: 24%
-[11:47:20] [Worker-Main-10/INFO]: Preparing spawn area: 32%
-[11:47:20] [Worker-Main-14/INFO]: Preparing spawn area: 43%
-[11:47:25] [Worker-Main-11/INFO]: Preparing spawn area: 43%
-[11:47:25] [Worker-Main-8/INFO]: Preparing spawn area: 43%
-[11:47:25] [Worker-Main-10/INFO]: Preparing spawn area: 43%
-[11:47:25] [Worker-Main-13/INFO]: Preparing spawn area: 43%
-[11:47:25] [Worker-Main-8/INFO]: Preparing spawn area: 43%
-[11:47:25] [Worker-Main-8/INFO]: Preparing spawn area: 43%
-[11:47:25] [Worker-Main-8/INFO]: Preparing spawn area: 43%
-[11:47:25] [Worker-Main-12/INFO]: Preparing spawn area: 43%
-[11:47:25] [Worker-Main-13/INFO]: Preparing spawn area: 43%
-[11:47:25] [Worker-Main-8/INFO]: Preparing spawn area: 43%
-[11:47:26] [Worker-Main-10/INFO]: Preparing spawn area: 54%
-[11:47:26] [Worker-Main-13/INFO]: Preparing spawn area: 61%
-[11:47:27] [Worker-Main-9/INFO]: Preparing spawn area: 69%
-[11:47:27] [Worker-Main-12/INFO]: Preparing spawn area: 77%
-[11:47:28] [Worker-Main-8/INFO]: Preparing spawn area: 82%
-[11:47:28] [Worker-Main-10/INFO]: Preparing spawn area: 83%
-[11:47:29] [Worker-Main-10/INFO]: Preparing spawn area: 84%
-[11:47:29] [Worker-Main-12/INFO]: Preparing spawn area: 86%
-[11:47:30] [Worker-Main-9/INFO]: Preparing spawn area: 87%
-[11:47:30] [Worker-Main-12/INFO]: Preparing spawn area: 88%
-[11:47:31] [Worker-Main-10/INFO]: Preparing spawn area: 94%
-[11:47:31] [Worker-Main-8/INFO]: Preparing spawn area: 96%
-[11:47:32] [Worker-Main-8/INFO]: Preparing spawn area: 97%
-[11:47:32] [Worker-Main-9/INFO]: Preparing spawn area: 99%
-[11:47:33] [Worker-Main-8/INFO]: Preparing spawn area: 99%
-[11:47:33] [Worker-Main-11/INFO]: Preparing spawn area: 99%
-[11:47:34] [Server thread/INFO]: Time elapsed: 43901 ms
-[11:47:34] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[11:47:36] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[11:47:36] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[11:47:36] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[11:47:36] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[11:47:36] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[11:47:36] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[11:47:37] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[11:47:38] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[11:47:38] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[11:47:38] [Worker-Main-13/INFO]: Preparing spawn area: 2%
-[11:47:39] [Worker-Main-11/INFO]: Preparing spawn area: 2%
-[11:47:39] [Worker-Main-9/INFO]: Preparing spawn area: 5%
-[11:47:40] [Worker-Main-13/INFO]: Preparing spawn area: 9%
-[11:47:40] [Worker-Main-13/INFO]: Preparing spawn area: 9%
-[11:47:41] [Worker-Main-13/INFO]: Preparing spawn area: 11%
-[11:47:41] [Worker-Main-9/INFO]: Preparing spawn area: 13%
-[11:47:42] [Worker-Main-14/INFO]: Preparing spawn area: 20%
-[11:47:42] [Worker-Main-14/INFO]: Preparing spawn area: 31%
-[11:47:43] [Worker-Main-9/INFO]: Preparing spawn area: 44%
-[11:47:43] [Worker-Main-14/INFO]: Preparing spawn area: 57%
-[11:47:44] [Worker-Main-8/INFO]: Preparing spawn area: 70%
-[11:47:44] [Worker-Main-10/INFO]: Preparing spawn area: 71%
-[11:47:45] [Worker-Main-13/INFO]: Preparing spawn area: 72%
-[11:47:45] [Worker-Main-12/INFO]: Preparing spawn area: 73%
-[11:47:46] [Worker-Main-12/INFO]: Preparing spawn area: 73%
-[11:47:46] [Worker-Main-12/INFO]: Preparing spawn area: 76%
-[11:47:47] [Worker-Main-12/INFO]: Preparing spawn area: 79%
-[11:47:47] [Worker-Main-12/INFO]: Preparing spawn area: 81%
-[11:47:48] [Worker-Main-12/INFO]: Preparing spawn area: 82%
-[11:47:48] [Worker-Main-12/INFO]: Preparing spawn area: 84%
-[11:47:49] [Worker-Main-11/INFO]: Preparing spawn area: 84%
-[11:47:49] [Worker-Main-9/INFO]: Preparing spawn area: 85%
-[11:47:50] [Worker-Main-8/INFO]: Preparing spawn area: 86%
-[11:47:51] [Worker-Main-11/INFO]: Preparing spawn area: 86%
-[11:47:51] [Worker-Main-8/INFO]: Preparing spawn area: 87%
-[11:47:51] [Worker-Main-14/INFO]: Preparing spawn area: 87%
-[11:47:52] [Worker-Main-8/INFO]: Preparing spawn area: 90%
-[11:47:52] [Worker-Main-9/INFO]: Preparing spawn area: 92%
-[11:47:53] [Worker-Main-11/INFO]: Preparing spawn area: 94%
-[11:47:53] [Worker-Main-8/INFO]: Preparing spawn area: 95%
-[11:47:54] [Worker-Main-11/INFO]: Preparing spawn area: 97%
-[11:47:54] [Server thread/INFO]: Time elapsed: 20476 ms
-[11:47:54] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[11:47:56] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[11:47:56] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[11:47:56] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[11:47:56] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[11:47:56] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[11:47:57] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[11:47:57] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[11:47:58] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[11:48:00] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[11:48:00] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[11:48:00] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[11:48:00] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[11:48:01] [Worker-Main-10/INFO]: Preparing spawn area: 3%
-[11:48:01] [Worker-Main-12/INFO]: Preparing spawn area: 10%
-[11:48:03] [Worker-Main-9/INFO]: Preparing spawn area: 11%
-[11:48:03] [Worker-Main-8/INFO]: Preparing spawn area: 17%
-[11:48:03] [Worker-Main-12/INFO]: Preparing spawn area: 29%
-[11:48:04] [Worker-Main-11/INFO]: Preparing spawn area: 40%
-[11:48:06] [Worker-Main-12/INFO]: Preparing spawn area: 49%
-[11:48:06] [Worker-Main-12/INFO]: Preparing spawn area: 50%
-[11:48:07] [Worker-Main-12/INFO]: Preparing spawn area: 63%
-[11:48:07] [Worker-Main-12/INFO]: Preparing spawn area: 63%
-[11:48:07] [Worker-Main-8/INFO]: Preparing spawn area: 73%
-[11:48:08] [Worker-Main-14/INFO]: Preparing spawn area: 83%
-[11:48:08] [Worker-Main-12/INFO]: Preparing spawn area: 83%
-[11:48:11] [Worker-Main-9/INFO]: Preparing spawn area: 91%
-[11:48:11] [Worker-Main-8/INFO]: Preparing spawn area: 96%
-[11:48:11] [Server thread/INFO]: Time elapsed: 13175 ms
-[11:48:11] [Server thread/INFO]: [CustomOreGen] Enabling CustomOreGen v1.3.31-SNAPSHOT
-[11:48:13] [Server thread/INFO]: ��6[CustomOreGen] ��cYou are not using any supported skyblock plugin! Will use the vanilla range check hook instead.[m
-[11:48:13] [Server thread/INFO]: ��6[CustomOreGen] ��aLoaded ��c2 ��agenerators![m
-[11:48:13] [Server thread/INFO]: [IridiumSkyblock] Enabling IridiumSkyblock v3.0.6
-[11:48:13] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[11:49:07] [Server thread/INFO]: -------- World Settings For [IridiumSkyblock] --------
-[11:49:07] [Server thread/INFO]: Mob Spawn Range: 6
-[11:49:07] [Server thread/INFO]: Experience Merge Radius: 3.0
-[11:49:07] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[11:49:07] [Server thread/INFO]: Cane Growth Modifier: 100%
-[11:49:07] [Server thread/INFO]: Melon Growth Modifier: 100%
-[11:49:07] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[11:49:07] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[11:49:07] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[11:49:07] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[11:49:07] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[11:49:07] [Server thread/INFO]: Potato Growth Modifier: 100%
-[11:49:07] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[11:49:07] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[11:49:07] [Server thread/INFO]: Vine Growth Modifier: 100%
-[11:49:07] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[11:49:07] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[11:49:07] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[11:49:07] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[11:49:07] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[11:49:07] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[11:49:07] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[11:49:07] [Server thread/INFO]: Max TNT Explosions: 100
-[11:49:07] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[11:49:07] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[11:49:07] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[11:49:07] [Server thread/INFO]: Item Despawn Rate: 6000
-[11:49:07] [Server thread/INFO]: Item Merge Radius: 2.5
-[11:49:07] [Server thread/INFO]: View Distance: 10
-[11:49:07] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[11:49:07] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[11:49:07] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[11:49:07] [Server thread/INFO]: Preparing start region for dimension minecraft:iridiumskyblock
-[11:49:07] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[11:49:08] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[11:49:08] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[11:49:09] [Worker-Main-12/INFO]: Preparing spawn area: 2%
-[11:49:09] [Worker-Main-11/INFO]: Preparing spawn area: 5%
-[11:49:10] [Worker-Main-14/INFO]: Preparing spawn area: 22%
-[11:49:10] [Worker-Main-8/INFO]: Preparing spawn area: 43%
-[11:49:11] [Worker-Main-10/INFO]: Preparing spawn area: 66%
-[11:49:11] [Worker-Main-14/INFO]: Preparing spawn area: 81%
-[11:49:12] [Worker-Main-12/INFO]: Preparing spawn area: 86%
-[11:49:12] [Worker-Main-10/INFO]: Preparing spawn area: 88%
-[11:49:13] [Server thread/INFO]: Time elapsed: 5460 ms
-[11:49:13] [Server thread/INFO]: -------- World Settings For [IridiumSkyblock_nether] --------
-[11:49:13] [Server thread/INFO]: Mob Spawn Range: 6
-[11:49:13] [Server thread/INFO]: Experience Merge Radius: 3.0
-[11:49:13] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[11:49:13] [Server thread/INFO]: Cane Growth Modifier: 100%
-[11:49:13] [Server thread/INFO]: Melon Growth Modifier: 100%
-[11:49:13] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[11:49:13] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[11:49:13] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[11:49:13] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[11:49:13] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[11:49:13] [Server thread/INFO]: Potato Growth Modifier: 100%
-[11:49:13] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[11:49:13] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[11:49:13] [Server thread/INFO]: Vine Growth Modifier: 100%
-[11:49:13] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[11:49:13] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[11:49:13] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[11:49:13] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[11:49:13] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[11:49:13] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[11:49:13] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[11:49:13] [Server thread/INFO]: Max TNT Explosions: 100
-[11:49:13] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[11:49:13] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[11:49:13] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[11:49:13] [Server thread/INFO]: Item Despawn Rate: 6000
-[11:49:13] [Server thread/INFO]: Item Merge Radius: 2.5
-[11:49:13] [Server thread/INFO]: View Distance: 10
-[11:49:13] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[11:49:13] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[11:49:13] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[11:49:13] [Server thread/INFO]: Preparing start region for dimension minecraft:iridiumskyblock_nether
-[11:49:14] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[11:49:14] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[11:49:14] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[11:49:14] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[11:49:15] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[11:49:15] [Worker-Main-14/INFO]: Preparing spawn area: 4%
-[11:49:16] [Worker-Main-11/INFO]: Preparing spawn area: 10%
-[11:49:16] [Worker-Main-13/INFO]: Preparing spawn area: 25%
-[11:49:17] [Worker-Main-8/INFO]: Preparing spawn area: 31%
-[11:49:17] [Worker-Main-9/INFO]: Preparing spawn area: 41%
-[11:49:18] [Worker-Main-13/INFO]: Preparing spawn area: 57%
-[11:49:18] [Worker-Main-11/INFO]: Preparing spawn area: 75%
-[11:49:19] [Worker-Main-10/INFO]: Preparing spawn area: 88%
-[11:49:19] [Server thread/INFO]: Time elapsed: 6354 ms
-[11:49:19] [Server thread/INFO]: -------- World Settings For [IridiumSkyblock_the_end] --------
-[11:49:19] [Server thread/INFO]: Mob Spawn Range: 6
-[11:49:19] [Server thread/INFO]: Experience Merge Radius: 3.0
-[11:49:19] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[11:49:19] [Server thread/INFO]: Cane Growth Modifier: 100%
-[11:49:19] [Server thread/INFO]: Melon Growth Modifier: 100%
-[11:49:19] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[11:49:19] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[11:49:19] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[11:49:19] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[11:49:19] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[11:49:19] [Server thread/INFO]: Potato Growth Modifier: 100%
-[11:49:19] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[11:49:19] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[11:49:19] [Server thread/INFO]: Vine Growth Modifier: 100%
-[11:49:19] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[11:49:19] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[11:49:19] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[11:49:19] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[11:49:19] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[11:49:19] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[11:49:19] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[11:49:19] [Server thread/INFO]: Max TNT Explosions: 100
-[11:49:19] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[11:49:19] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[11:49:19] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[11:49:19] [Server thread/INFO]: Item Despawn Rate: 6000
-[11:49:19] [Server thread/INFO]: Item Merge Radius: 2.5
-[11:49:19] [Server thread/INFO]: View Distance: 10
-[11:49:19] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[11:49:19] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[11:49:19] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[11:49:19] [Server thread/INFO]: Preparing start region for dimension minecraft:iridiumskyblock_the_end
-[11:49:20] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[11:49:20] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[11:49:20] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[11:49:21] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[11:49:21] [Worker-Main-13/INFO]: Preparing spawn area: 4%
-[11:49:22] [Worker-Main-8/INFO]: Preparing spawn area: 4%
-[11:49:22] [Worker-Main-11/INFO]: Preparing spawn area: 12%
-[11:49:23] [Worker-Main-13/INFO]: Preparing spawn area: 22%
-[11:49:23] [Worker-Main-11/INFO]: Preparing spawn area: 22%
-[11:49:24] [Worker-Main-10/INFO]: Preparing spawn area: 40%
-[11:49:24] [Worker-Main-13/INFO]: Preparing spawn area: 57%
-[11:49:25] [Worker-Main-10/INFO]: Preparing spawn area: 74%
-[11:49:25] [Worker-Main-10/INFO]: Preparing spawn area: 88%
-[11:49:26] [Server thread/INFO]: Time elapsed: 6395 ms
-[11:49:27] [Server thread/INFO]: [IridiumSkyblock] ----------------------------------------
-[11:49:27] [Server thread/INFO]: [IridiumSkyblock] 
-[11:49:27] [Server thread/INFO]: [IridiumSkyblock] IridiumSkyblock Enabled!
-[11:49:27] [Server thread/INFO]: [IridiumSkyblock] Version: 3.0.6
-[11:49:27] [Server thread/INFO]: [IridiumSkyblock] 
-[11:49:27] [Server thread/INFO]: [IridiumSkyblock] ----------------------------------------
-[11:49:27] [Server thread/INFO]: [EconomyPlus] Enabling EconomyPlus v1.6
-[11:49:27] [Server thread/INFO]: [0;30;1m+------------------------------------+[m
-[11:49:27] [Server thread/INFO]:              [0;35;1mEconomy[0;35;22mPlus[m
-[11:49:27] [Server thread/INFO]:               [0;32;1mEnabling[m
-[11:49:27] [Server thread/INFO]: [0;30;1m[m
-[11:49:27] [Server thread/INFO]: [0;37;1m-> [0;31;1mLoading core![m
-[11:49:27] [Server thread/INFO]:    - [0;37;1mDatabase: [0;36;1mLoaded (SQLite)[m
-[11:49:27] [Server thread/INFO]:    - [0;37;1mVault: [0;33;22mHooked[m
-[11:49:27] [Server thread/INFO]:    - [0;37;1mEvents: [0;32;1mLoaded[m
-[11:49:27] [Server thread/INFO]:    - [0;37;1mCommands: [0;32;1mLoaded[m
-[11:49:27] [Server thread/INFO]: [0;30;1m[m
-[11:49:27] [Server thread/INFO]: [0;37;1m-> [0;31;1mLoading hooks![m
-[11:49:27] [Server thread/INFO]:    - [0;37;1mbStats: [0;32;1mLoaded[m
-[11:49:27] [Server thread/INFO]:    - [0;37;1mHolographicDisplays: [0;31;1mCan't find the jar![m
-[11:49:27] [Server thread/INFO]: [0;37;1m[m
-[11:49:27] [Server thread/INFO]: [0;37;1m-> [0;31;1mLoading placeholders:[m
-[11:49:27] [Server thread/INFO]:    - MVdWPlaceholderAPI: [0;31;1mNot found![m
-[11:49:27] [Server thread/INFO]:    - PlaceholderAPI: [0;31;1mNot found![m
-[11:49:27] [Server thread/INFO]: [0;37;1m[m
-[11:49:27] [Server thread/INFO]: [0;30;1m+---------------[[0;32;1m 121ms [0;30;1m]-------------+[m
-[11:49:27] [Server thread/INFO]: [QuickShop] Enabling QuickShop v4.0.9.7
-[11:49:27] [Server thread/INFO]: [QuickShop] QuickShop Reremake
-[11:49:27] [Server thread/INFO]: [QuickShop] Starting plugin self-test, please wait...
-[11:49:27] [Server thread/INFO]: [QuickShop] [OK] Signature Verify
-[11:49:27] [Server thread/INFO]: [QuickShop] [OK] EnvChecker SelfTest
-[11:49:27] [Server thread/INFO]: [QuickShop] [OK] Java Runtime Environment Version Test
-[11:49:27] [Server thread/INFO]: [QuickShop] Running QuickShop-Reremake on NMS version v1_17_R1 For Minecraft version 1.17.1
-[11:49:27] [Server thread/INFO]: [QuickShop] [OK] Spigot Based Server Test
-[11:49:27] [Server thread/INFO]: [QuickShop] [OK] Old QuickShop Test
-[11:49:27] [Server thread/INFO]: [QuickShop] [OK] ModdedServer Based Test
-[11:49:27] [Server thread/INFO]: [QuickShop] [OK] CoreSupport Test
-[11:49:27] [Server thread/WARN]: [QuickShop] [WARN] Virtual DisplayItem Support Test: ProtocolLib is not installed, virtual DisplayItem seems will not work on your server.
-[11:49:27] [Server thread/WARN]: [QuickShop] [WARN] PersistentStorageApi Support Test: Passed checks
-[11:49:27] [Server thread/WARN]: [QuickShop] [WARN] GameVersion supporting Test: Passed checks
-[11:49:27] [Server thread/WARN]: [QuickShop] [WARN] PacketListenerAPI Conflict Test: Passed checks
-[11:49:27] [Server thread/WARN]: [QuickShop] [WARN] Permission Manager Test: Passed checks
-[11:49:27] [Server thread/INFO]: [QuickShop] Reading the configuration...
-[11:49:28] [Server thread/INFO]: [QuickShop] Loading plugin translations files...
-[11:49:28] [Server thread/WARN]: [QuickShop] Unable to get language code, guessingen_en instead, If it's incorrect, please change game-language option in config.yml.
-[11:49:28] [Thread-14/INFO]: [QuickShop] Loading required files from Mojang API, Please allow up to 20 secs.
-[11:49:29] [Thread-14/WARN]: [QuickShop] Failed to update game assets from MojangAPI server because the language code en_en not supported by Minecraft.
-[11:49:30] [Server thread/INFO]: [QuickShop] Developers: PotatoCraft Studio, Netherfoam, Timtower, KaiNoMood, Ghost_chu, Mgazul, TiaraRinne, sandtechnology, Starmism, Chris6ix
-[11:49:30] [Server thread/INFO]: [QuickShop] Original author: Netherfoam, Timtower, KaiNoMood
-[11:49:30] [Server thread/INFO]: [QuickShop] Let's start loading the plugin
-[11:49:30] [Server thread/INFO]: [QuickShop] Chat processor selected: BUNGEECHAT
-[11:49:30] [Server thread/INFO]: [QuickShop] Loading plugin translations files...
-[11:49:30] [Server thread/WARN]: [QuickShop] Unable to get language code, guessingen_en instead, If it's incorrect, please change game-language option in config.yml.
-[11:49:30] [Thread-16/INFO]: [QuickShop] Loading required files from Mojang API, Please allow up to 20 secs.
-[11:49:30] [Thread-16/WARN]: [QuickShop] Failed to update game assets from MojangAPI server because the language code en_en not supported by Minecraft.
-[11:49:30] [Server thread/INFO]: [QuickShop] Loading items translations...
-[11:49:31] [Server thread/INFO]: [QuickShop] Loading enchantments translations...
-[11:49:31] [Server thread/INFO]: [QuickShop] Loading potions translations...
-[11:49:31] [Server thread/INFO]: [QuickShop] Setting up database...
-[11:49:31] [Server thread/INFO]: [QuickShop] Selected permission provider: Bukkit
-[11:49:31] [Server thread/INFO]: [QuickShop] Registering commands...
-[11:49:31] [Server thread/INFO]: [QuickShop] EventManager selected: BukkitEventManager
-[11:49:31] [Server thread/INFO]: [QuickShop] Loading shops from the database...
-[11:49:31] [Server thread/INFO]: [QuickShop] Successfully loaded 0 shops!
-[11:49:31] [Server thread/INFO]: [QuickShop] 0 shops will load after chunk have loaded, 0 shops will load after the world has loaded.
-[11:49:31] [Server thread/INFO]: [QuickShop] Registering listeners...
-[11:49:31] [Server thread/INFO]: [QuickShop] Registering DisplayCheck task....
-[11:49:31] [Server thread/INFO]: [QuickShop] Cleaning MsgUtils...
-[11:49:31] [Server thread/INFO]: [QuickShop] Cleaning purchase messages from the database that are over a week old...
-[11:49:31] [Server thread/INFO]: [QuickShop] Log actions is enabled, actions will log in the qs.log file!
-[11:49:31] [Server thread/INFO]: [QuickShop] QuickShop Loaded! 3997 ms.
-[11:49:31] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[11:49:31] [Server thread/INFO]: Done (139.832s)! For help, type "help"
-[11:49:31] [Server thread/INFO]: [QuickShop] Registering bStats metrics...
-[11:49:31] [Server thread/INFO]: [QuickShop] Metrics submitted.
-[11:49:31] [Server thread/INFO]: [QuickShop] Using economy system: EconomyPlus
-[11:49:31] [Server thread/WARN]: [QuickShop] QuickShop detected tax account not exists, we're trying to create one. If you see any errors, please change tax-account in config.yml to server owner in-game username
-[11:49:31] [Server thread/WARN]: [QuickShop] Cannot to create tax-account,  please change tax-account in config.yml to server owner in-game username
-[11:49:31] [Server thread/WARN]: [QuickShop] Tax account's player never played this server before, that may cause server lagg or economy system error, you should change that name. But if this warning not cause any issues, you can safety ignore this.
-[11:49:31] [Craft Scheduler Thread - 4/INFO]: [Vault] Checking for Updates ... 
-[11:49:32] [Server thread/INFO]: [IridiumSkyblock] You are using the latest version of IridiumSkyblock.
-[11:49:33] [Craft Scheduler Thread - 4/INFO]: [Vault] No new version available
-[11:49:34] [User Authenticator #1/INFO]: UUID of player SkyeEyks is 80ef807d-02e9-44d5-a648-0d4d5a5e4402
-[11:49:35] [Server thread/INFO]: SkyeEyks[/192.168.18.7:50629] logged in with entity id 199 at ([IridiumSkyblock]150.30000001192093, 93.0, -146.69999998807907)
-[11:49:44] [Server thread/INFO]: SkyeEyks issued server command: /is shop
-[11:49:55] [Server thread/INFO]: SkyeEyks issued server command: /is shop
-[11:53:29] [Server thread/INFO]: Stopping the server
-[11:53:29] [Server thread/INFO]: Stopping server
-[11:53:29] [Server thread/INFO]: [QuickShop] Disabling QuickShop v4.0.9.7
-[11:53:29] [Server thread/INFO]: [QuickShop] QuickShop is finishing remaining work, this may need a while...
-[11:53:29] [Server thread/INFO]: [QuickShop] Please wait for the data to flush its data...
-[11:53:29] [Server thread/INFO]: [EconomyPlus] Disabling EconomyPlus v1.6
-[11:53:29] [Server thread/INFO]: [0;30;1m+------------------------------------+[m
-[11:53:29] [Server thread/INFO]:              [0;35;1mEconomy[0;35;22mPlus[m
-[11:53:29] [Server thread/INFO]:               [0;31;1mDisabling[m
-[11:53:29] [Server thread/INFO]: [m
-[11:53:29] [Server thread/INFO]: [0;37;1m-> [0;31;1mUnhooking from Vault[m
-[11:53:29] [Server thread/INFO]: [0;37;1m-> [0;31;1mClosing database connection[m
-[11:53:29] [Server thread/INFO]: [0;30;1m+------------------------------------+[m
-[11:53:29] [Server thread/INFO]: [IridiumSkyblock] Disabling IridiumSkyblock v3.0.6
-[11:53:29] [Server thread/INFO]: [IridiumSkyblock] -------------------------------
-[11:53:29] [Server thread/INFO]: [IridiumSkyblock] 
-[11:53:29] [Server thread/INFO]: [IridiumSkyblock] IridiumSkyblock Disabled!
-[11:53:29] [Server thread/INFO]: [IridiumSkyblock] 
-[11:53:29] [Server thread/INFO]: [IridiumSkyblock] -------------------------------
-[11:53:29] [Server thread/INFO]: [CustomOreGen] Disabling CustomOreGen v1.3.31-SNAPSHOT
-[11:53:29] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[11:53:29] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.3.47
-[11:53:29] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[11:53:29] [Server thread/INFO]: [LuckPerms] Closing storage...
-[11:53:30] [Server thread/INFO]: [LuckPerms] Goodbye!
-[11:53:30] [Server thread/INFO]: Saving players
-[11:53:30] [Server thread/INFO]: SkyeEyks lost connection: Server closed
-[11:53:30] [Server thread/INFO]: SkyeEyks left the game
-[11:53:30] [Server thread/INFO]: Saving worlds
-[11:53:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[11:53:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[11:53:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[11:53:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[IridiumSkyblock]'/minecraft:iridiumskyblock
-[11:53:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[IridiumSkyblock_nether]'/minecraft:iridiumskyblock_nether
-[11:53:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[IridiumSkyblock_the_end]'/minecraft:iridiumskyblock_the_end
-[11:54:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[11:54:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[11:54:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[11:54:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (IridiumSkyblock): All chunks are saved
-[11:54:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[11:54:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[11:54:01] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[12:06:06] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[12:06:09] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[12:06:14] [Worker-Main-10/INFO]: Loaded 7 recipes
+[12:06:23] [Server thread/INFO]: Starting minecraft server version 1.17.1
+[12:06:23] [Server thread/INFO]: Loading properties
+[12:06:24] [Server thread/INFO]: This server is running CraftBukkit version 3202-Spigot-18c71bf-64d149a (MC: 1.17.1) (Implementing API version 1.17.1-R0.1-SNAPSHOT)
+[12:06:25] [Server thread/INFO]: Debug logging is disabled
+[12:06:25] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:06:25] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:06:25] [Server thread/INFO]: Default game type: SURVIVAL
+[12:06:25] [Server thread/INFO]: Generating keypair
+[12:06:26] [Server thread/INFO]: Starting Minecraft server on *:25565
+[12:06:26] [Server thread/INFO]: Using default channel type
+[12:06:27] [Server thread/WARN]: Failed to find a usable hardware address from the network interfaces; using random bytes: be:2b:bc:29:6d:46:52:c3
+[12:06:33] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.3.47
+[12:06:40] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[12:06:40] [Server thread/INFO]: [CustomOreGen] Loading CustomOreGen v1.3.31-SNAPSHOT
+[12:06:40] [Server thread/INFO]: [IridiumSkyblock] Loading IridiumSkyblock v3.0.6
+[12:07:11] [Server thread/ERROR]: [IridiumSkyblock] Failed to parse plugins/IridiumSkyblock/shop.yml: Unrecognized field "damage" (class com.iridium.iridiumskyblock.shop.ShopItem), not marked as ignorable (8 known properties: "sellReward", "buyCost", "lore", "defaultAmount", "type", "name", "slot", "command"])
+ at [Source: (File); line: 1081, column: 14] (through reference chain: com.iridium.iridiumskyblock.configs.Shop["items"]->java.util.LinkedHashMap["Spawners"]->java.util.ArrayList[1]->com.iridium.iridiumskyblock.shop.ShopItem["damage"])
+[12:07:20] [Server thread/INFO]: [EconomyPlus] Loading EconomyPlus v1.6
+[12:07:20] [Server thread/INFO]: [QuickShop] Loading QuickShop v4.0.9.7
+[12:07:20] [Server thread/INFO]: [QuickShop] QuickShop Reremake - Early boot step - Booting up...
+[12:07:28] [Server thread/INFO]: [QuickShop] [OK] Signature Verify
+[12:07:28] [Server thread/INFO]: [QuickShop] Reading the configuration...
+[12:07:29] [Server thread/INFO]: [QuickShop] Loading plugin translations files...
+[12:07:29] [Server thread/WARN]: [QuickShop] Unable to get language code, guessingen_en instead, If it's incorrect, please change game-language option in config.yml.
+[12:07:29] [Thread-5/INFO]: [QuickShop] Loading required files from Mojang API, Please allow up to 20 secs.
+[12:07:35] [Thread-5/WARN]: [QuickShop] Failed to update game assets from MojangAPI server because the language code en_en not supported by Minecraft.
+[12:07:35] [Server thread/INFO]: [QuickShop] Translator: Ghost_chu, Andre_601
+[12:07:35] [Server thread/INFO]: [QuickShop] Contributors: Timtower, Netherfoam, KaiNoMood, Mgazul, JackTheChicken and Andre_601
+[12:07:35] [Server thread/INFO]: [QuickShop] Language Zone: English (en_US)
+[12:07:35] [Server thread/INFO]: [QuickShop] Loading up integration modules.
+[12:07:36] [Server thread/INFO]: [QuickShop] QuickShop Reremake - Early boot step - Booted up...
+[12:07:36] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.3.47
+[12:07:46] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
+[12:07:46] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms[m [0;36;1mv5.3.47[m
+[12:07:46] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
+[12:07:46] [Server thread/INFO]: [m
+[12:07:46] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[12:07:53] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[12:08:04] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[12:08:04] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[12:08:06] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 30073ms)
+[12:08:06] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[12:08:06] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[12:08:06] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[12:08:06] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[12:08:06] [Server thread/INFO]: Preparing level "world"
+[12:08:07] [Server thread/INFO]: -------- World Settings For [world] --------
+[12:08:07] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:08:07] [Server thread/INFO]: Mob Spawn Range: 6
+[12:08:07] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:08:07] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:08:07] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:08:07] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:08:07] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:08:07] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:08:07] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:08:07] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:08:07] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:08:07] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:08:07] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:08:07] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:08:07] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:08:07] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:08:07] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:08:07] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:08:07] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[12:08:07] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:08:07] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[12:08:07] [Server thread/INFO]: Max TNT Explosions: 100
+[12:08:07] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:08:07] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:08:07] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:08:07] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:08:07] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:08:07] [Server thread/INFO]: View Distance: 10
+[12:08:07] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[12:08:07] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:08:07] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:08:08] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[12:08:08] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:08:08] [Server thread/INFO]: Mob Spawn Range: 6
+[12:08:08] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:08:08] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:08:08] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:08:08] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:08:08] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:08:08] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:08:08] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:08:08] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:08:08] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:08:08] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:08:08] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:08:08] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:08:08] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:08:08] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:08:08] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:08:08] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:08:08] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[12:08:08] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:08:08] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[12:08:08] [Server thread/INFO]: Max TNT Explosions: 100
+[12:08:08] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:08:08] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:08:08] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:08:08] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:08:08] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:08:08] [Server thread/INFO]: View Distance: 10
+[12:08:08] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[12:08:08] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:08:08] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:08:09] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[12:08:09] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:08:09] [Server thread/INFO]: Mob Spawn Range: 6
+[12:08:09] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:08:09] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:08:09] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:08:09] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:08:09] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:08:09] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:08:09] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:08:09] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:08:09] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:08:09] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:08:09] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:08:09] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:08:09] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:08:09] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:08:09] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:08:09] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:08:09] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[12:08:09] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:08:09] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[12:08:09] [Server thread/INFO]: Max TNT Explosions: 100
+[12:08:09] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:08:09] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:08:09] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:08:09] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:08:09] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:08:09] [Server thread/INFO]: View Distance: 10
+[12:08:09] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[12:08:09] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:08:09] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:08:09] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:08:13] [Worker-Main-15/INFO]: Preparing spawn area: 0%
+[12:08:13] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[12:08:13] [Worker-Main-15/INFO]: Preparing spawn area: 0%
+[12:08:13] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[12:08:13] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[12:08:13] [Worker-Main-15/INFO]: Preparing spawn area: 0%
+[12:08:13] [Worker-Main-15/INFO]: Preparing spawn area: 0%
+[12:08:13] [Worker-Main-15/INFO]: Preparing spawn area: 0%
+[12:08:13] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[12:08:13] [Worker-Main-15/INFO]: Preparing spawn area: 0%
+[12:08:14] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[12:08:14] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[12:08:15] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[12:08:15] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[12:08:38] [Worker-Main-15/INFO]: Preparing spawn area: 0%
+[12:08:38] [Worker-Main-15/INFO]: Preparing spawn area: 0%
+[12:08:38] [Worker-Main-15/INFO]: Preparing spawn area: 0%
+[12:08:38] [Worker-Main-15/INFO]: Preparing spawn area: 0%
+[12:08:38] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[12:08:38] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[12:08:38] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[12:08:38] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[12:08:38] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[12:08:38] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[12:08:38] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[12:08:39] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[12:08:39] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[12:08:39] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[12:08:39] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[12:08:39] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[12:08:39] [Worker-Main-15/INFO]: Preparing spawn area: 0%
+[12:08:39] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[12:08:39] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[12:08:39] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[12:08:39] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[12:08:39] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[12:08:39] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[12:08:39] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[12:08:39] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[12:08:39] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[12:08:39] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[12:08:39] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[12:08:39] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[12:08:39] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[12:08:39] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[12:08:39] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[12:08:39] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[12:08:39] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[12:08:39] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[12:08:39] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[12:08:39] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[12:08:39] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[12:08:39] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[12:08:39] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[12:08:39] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[12:08:39] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[12:08:39] [Worker-Main-15/INFO]: Preparing spawn area: 0%
+[12:08:39] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[12:08:39] [Worker-Main-15/INFO]: Preparing spawn area: 0%
+[12:08:39] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[12:08:39] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[12:08:39] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[12:08:40] [Worker-Main-15/INFO]: Preparing spawn area: 0%
+[12:08:40] [Worker-Main-8/INFO]: Preparing spawn area: 12%
+[12:08:41] [Worker-Main-12/INFO]: Preparing spawn area: 15%
+[12:08:41] [Worker-Main-15/INFO]: Preparing spawn area: 31%
+[12:08:47] [Worker-Main-9/INFO]: Preparing spawn area: 39%
+[12:08:47] [Worker-Main-8/INFO]: Preparing spawn area: 39%
+[12:08:47] [Worker-Main-8/INFO]: Preparing spawn area: 39%
+[12:08:47] [Worker-Main-11/INFO]: Preparing spawn area: 39%
+[12:08:47] [Worker-Main-11/INFO]: Preparing spawn area: 39%
+[12:08:47] [Worker-Main-11/INFO]: Preparing spawn area: 39%
+[12:08:47] [Worker-Main-11/INFO]: Preparing spawn area: 39%
+[12:08:47] [Worker-Main-13/INFO]: Preparing spawn area: 39%
+[12:08:47] [Worker-Main-8/INFO]: Preparing spawn area: 39%
+[12:08:47] [Worker-Main-8/INFO]: Preparing spawn area: 39%
+[12:08:47] [Worker-Main-8/INFO]: Preparing spawn area: 39%
+[12:08:47] [Worker-Main-13/INFO]: Preparing spawn area: 39%
+[12:08:48] [Worker-Main-9/INFO]: Preparing spawn area: 52%
+[12:08:48] [Worker-Main-12/INFO]: Preparing spawn area: 61%
+[12:08:49] [Worker-Main-12/INFO]: Preparing spawn area: 73%
+[12:08:50] [Worker-Main-13/INFO]: Preparing spawn area: 82%
+[12:08:50] [Worker-Main-12/INFO]: Preparing spawn area: 82%
+[12:08:50] [Worker-Main-13/INFO]: Preparing spawn area: 83%
+[12:08:51] [Worker-Main-9/INFO]: Preparing spawn area: 84%
+[12:08:51] [Worker-Main-9/INFO]: Preparing spawn area: 84%
+[12:08:52] [Worker-Main-11/INFO]: Preparing spawn area: 85%
+[12:08:52] [Worker-Main-12/INFO]: Preparing spawn area: 87%
+[12:08:53] [Worker-Main-14/INFO]: Preparing spawn area: 89%
+[12:08:53] [Worker-Main-9/INFO]: Preparing spawn area: 89%
+[12:08:54] [Worker-Main-8/INFO]: Preparing spawn area: 90%
+[12:08:54] [Worker-Main-12/INFO]: Preparing spawn area: 91%
+[12:08:55] [Worker-Main-14/INFO]: Preparing spawn area: 93%
+[12:08:55] [Worker-Main-8/INFO]: Preparing spawn area: 96%
+[12:08:56] [Worker-Main-13/INFO]: Preparing spawn area: 96%
+[12:08:56] [Worker-Main-12/INFO]: Preparing spawn area: 96%
+[12:08:57] [Worker-Main-9/INFO]: Preparing spawn area: 99%
+[12:08:57] [Server thread/INFO]: Time elapsed: 48342 ms
+[12:08:57] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[12:08:59] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[12:08:59] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[12:08:59] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[12:08:59] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[12:08:59] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[12:09:00] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[12:09:00] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[12:09:01] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[12:09:01] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[12:09:02] [Worker-Main-8/INFO]: Preparing spawn area: 2%
+[12:09:02] [Worker-Main-8/INFO]: Preparing spawn area: 4%
+[12:09:03] [Worker-Main-12/INFO]: Preparing spawn area: 6%
+[12:09:03] [Worker-Main-9/INFO]: Preparing spawn area: 8%
+[12:09:04] [Worker-Main-15/INFO]: Preparing spawn area: 19%
+[12:09:04] [Worker-Main-11/INFO]: Preparing spawn area: 27%
+[12:09:05] [Worker-Main-11/INFO]: Preparing spawn area: 39%
+[12:09:05] [Worker-Main-15/INFO]: Preparing spawn area: 41%
+[12:09:06] [Worker-Main-13/INFO]: Preparing spawn area: 55%
+[12:09:06] [Worker-Main-12/INFO]: Preparing spawn area: 65%
+[12:09:07] [Worker-Main-11/INFO]: Preparing spawn area: 69%
+[12:09:07] [Worker-Main-8/INFO]: Preparing spawn area: 69%
+[12:09:08] [Worker-Main-12/INFO]: Preparing spawn area: 72%
+[12:09:08] [Worker-Main-14/INFO]: Preparing spawn area: 74%
+[12:09:09] [Worker-Main-12/INFO]: Preparing spawn area: 75%
+[12:09:09] [Worker-Main-12/INFO]: Preparing spawn area: 75%
+[12:09:10] [Worker-Main-14/INFO]: Preparing spawn area: 77%
+[12:09:10] [Worker-Main-12/INFO]: Preparing spawn area: 79%
+[12:09:11] [Worker-Main-11/INFO]: Preparing spawn area: 80%
+[12:09:11] [Worker-Main-9/INFO]: Preparing spawn area: 82%
+[12:09:12] [Worker-Main-15/INFO]: Preparing spawn area: 82%
+[12:09:12] [Worker-Main-14/INFO]: Preparing spawn area: 83%
+[12:09:13] [Worker-Main-9/INFO]: Preparing spawn area: 83%
+[12:09:13] [Worker-Main-9/INFO]: Preparing spawn area: 84%
+[12:09:14] [Worker-Main-14/INFO]: Preparing spawn area: 85%
+[12:09:14] [Worker-Main-11/INFO]: Preparing spawn area: 87%
+[12:09:15] [Worker-Main-12/INFO]: Preparing spawn area: 88%
+[12:09:15] [Worker-Main-12/INFO]: Preparing spawn area: 89%
+[12:09:16] [Worker-Main-8/INFO]: Preparing spawn area: 89%
+[12:09:16] [Worker-Main-8/INFO]: Preparing spawn area: 89%
+[12:09:17] [Worker-Main-8/INFO]: Preparing spawn area: 92%
+[12:09:17] [Worker-Main-13/INFO]: Preparing spawn area: 93%
+[12:09:18] [Worker-Main-13/INFO]: Preparing spawn area: 94%
+[12:09:18] [Worker-Main-9/INFO]: Preparing spawn area: 96%
+[12:09:19] [Worker-Main-12/INFO]: Preparing spawn area: 98%
+[12:09:19] [Server thread/INFO]: Time elapsed: 21794 ms
+[12:09:19] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[12:09:21] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[12:09:21] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[12:09:21] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[12:09:21] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[12:09:21] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[12:09:22] [Worker-Main-15/INFO]: Preparing spawn area: 0%
+[12:09:22] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[12:09:23] [Worker-Main-11/INFO]: Preparing spawn area: 1%
+[12:09:23] [Worker-Main-11/INFO]: Preparing spawn area: 4%
+[12:09:24] [Worker-Main-14/INFO]: Preparing spawn area: 4%
+[12:09:24] [Worker-Main-11/INFO]: Preparing spawn area: 10%
+[12:09:25] [Worker-Main-11/INFO]: Preparing spawn area: 21%
+[12:09:25] [Worker-Main-12/INFO]: Preparing spawn area: 36%
+[12:09:26] [Worker-Main-9/INFO]: Preparing spawn area: 46%
+[12:09:26] [Worker-Main-14/INFO]: Preparing spawn area: 59%
+[12:09:27] [Worker-Main-8/INFO]: Preparing spawn area: 68%
+[12:09:27] [Worker-Main-11/INFO]: Preparing spawn area: 76%
+[12:09:28] [Worker-Main-12/INFO]: Preparing spawn area: 83%
+[12:09:28] [Worker-Main-14/INFO]: Preparing spawn area: 86%
+[12:09:29] [Worker-Main-12/INFO]: Preparing spawn area: 91%
+[12:09:29] [Worker-Main-15/INFO]: Preparing spawn area: 96%
+[12:09:29] [Server thread/INFO]: Time elapsed: 10144 ms
+[12:09:29] [Server thread/INFO]: [CustomOreGen] Enabling CustomOreGen v1.3.31-SNAPSHOT
+[12:09:29] [Server thread/INFO]: ��6[CustomOreGen] ��cYou are not using any supported skyblock plugin! Will use the vanilla range check hook instead.[m
+[12:09:29] [Server thread/INFO]: ��6[CustomOreGen] ��aLoaded ��c2 ��agenerators![m
+[12:09:30] [Server thread/INFO]: [IridiumSkyblock] Enabling IridiumSkyblock v3.0.6
+[12:09:30] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[12:09:53] [Server thread/INFO]: -------- World Settings For [IridiumSkyblock] --------
+[12:09:53] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:09:53] [Server thread/INFO]: Mob Spawn Range: 6
+[12:09:53] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:09:53] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:09:53] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:09:53] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:09:53] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:09:53] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:09:53] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:09:53] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:09:53] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:09:53] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:09:53] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:09:53] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:09:53] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:09:53] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:09:53] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:09:53] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:09:53] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[12:09:53] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:09:53] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[12:09:53] [Server thread/INFO]: Max TNT Explosions: 100
+[12:09:53] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:09:53] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:09:53] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:09:53] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:09:53] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:09:53] [Server thread/INFO]: View Distance: 10
+[12:09:53] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[12:09:53] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:09:53] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:09:53] [Server thread/INFO]: Preparing start region for dimension minecraft:iridiumskyblock
+[12:09:54] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[12:09:54] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[12:09:54] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[12:09:55] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[12:09:55] [Worker-Main-9/INFO]: Preparing spawn area: 1%
+[12:09:56] [Worker-Main-8/INFO]: Preparing spawn area: 10%
+[12:09:56] [Worker-Main-15/INFO]: Preparing spawn area: 26%
+[12:09:57] [Worker-Main-13/INFO]: Preparing spawn area: 38%
+[12:09:57] [Worker-Main-12/INFO]: Preparing spawn area: 48%
+[12:09:58] [Worker-Main-11/INFO]: Preparing spawn area: 57%
+[12:09:58] [Worker-Main-15/INFO]: Preparing spawn area: 70%
+[12:09:59] [Worker-Main-13/INFO]: Preparing spawn area: 82%
+[12:09:59] [Worker-Main-14/INFO]: Preparing spawn area: 99%
+[12:09:59] [Server thread/INFO]: Time elapsed: 6050 ms
+[12:09:59] [Server thread/INFO]: -------- World Settings For [IridiumSkyblock_nether] --------
+[12:09:59] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:09:59] [Server thread/INFO]: Mob Spawn Range: 6
+[12:09:59] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:09:59] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:09:59] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:09:59] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:09:59] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:09:59] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:09:59] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:09:59] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:09:59] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:09:59] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:09:59] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:09:59] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:09:59] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:09:59] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:09:59] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:09:59] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:09:59] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[12:09:59] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:09:59] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[12:09:59] [Server thread/INFO]: Max TNT Explosions: 100
+[12:09:59] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:09:59] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:09:59] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:09:59] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:09:59] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:09:59] [Server thread/INFO]: View Distance: 10
+[12:09:59] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[12:09:59] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:09:59] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:09:59] [Server thread/INFO]: Preparing start region for dimension minecraft:iridiumskyblock_nether
+[12:10:00] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[12:10:00] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[12:10:00] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[12:10:01] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[12:10:01] [Worker-Main-12/INFO]: Preparing spawn area: 2%
+[12:10:02] [Worker-Main-13/INFO]: Preparing spawn area: 9%
+[12:10:02] [Worker-Main-12/INFO]: Preparing spawn area: 21%
+[12:10:03] [Worker-Main-13/INFO]: Preparing spawn area: 35%
+[12:10:04] [Worker-Main-9/INFO]: Preparing spawn area: 40%
+[12:10:04] [Worker-Main-9/INFO]: Preparing spawn area: 40%
+[12:10:04] [Worker-Main-14/INFO]: Preparing spawn area: 55%
+[12:10:05] [Worker-Main-12/INFO]: Preparing spawn area: 73%
+[12:10:06] [Worker-Main-8/INFO]: Preparing spawn area: 91%
+[12:10:06] [Server thread/INFO]: Time elapsed: 6336 ms
+[12:10:06] [Server thread/INFO]: -------- World Settings For [IridiumSkyblock_the_end] --------
+[12:10:06] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:10:06] [Server thread/INFO]: Mob Spawn Range: 6
+[12:10:06] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:10:06] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:10:06] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:10:06] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:10:06] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:10:06] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:10:06] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:10:06] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:10:06] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:10:06] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:10:06] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:10:06] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:10:06] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:10:06] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:10:06] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:10:06] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:10:06] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[12:10:06] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:10:06] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[12:10:06] [Server thread/INFO]: Max TNT Explosions: 100
+[12:10:06] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:10:06] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:10:06] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:10:06] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:10:06] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:10:06] [Server thread/INFO]: View Distance: 10
+[12:10:06] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[12:10:06] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:10:06] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:10:06] [Server thread/INFO]: Preparing start region for dimension minecraft:iridiumskyblock_the_end
+[12:10:06] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[12:10:06] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[12:10:07] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[12:10:07] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[12:10:08] [Worker-Main-9/INFO]: Preparing spawn area: 1%
+[12:10:08] [Worker-Main-8/INFO]: Preparing spawn area: 4%
+[12:10:09] [Worker-Main-9/INFO]: Preparing spawn area: 17%
+[12:10:09] [Worker-Main-15/INFO]: Preparing spawn area: 27%
+[12:10:10] [Worker-Main-8/INFO]: Preparing spawn area: 38%
+[12:10:10] [Worker-Main-9/INFO]: Preparing spawn area: 49%
+[12:10:11] [Worker-Main-11/INFO]: Preparing spawn area: 67%
+[12:10:11] [Worker-Main-15/INFO]: Preparing spawn area: 84%
+[12:10:12] [Server thread/INFO]: Time elapsed: 5883 ms
+[12:10:13] [Server thread/INFO]: [IridiumSkyblock] ----------------------------------------
+[12:10:13] [Server thread/INFO]: [IridiumSkyblock] 
+[12:10:13] [Server thread/INFO]: [IridiumSkyblock] IridiumSkyblock Enabled!
+[12:10:13] [Server thread/INFO]: [IridiumSkyblock] Version: 3.0.6
+[12:10:13] [Server thread/INFO]: [IridiumSkyblock] 
+[12:10:13] [Server thread/INFO]: [IridiumSkyblock] ----------------------------------------
+[12:10:13] [Server thread/INFO]: [EconomyPlus] Enabling EconomyPlus v1.6
+[12:10:13] [Server thread/INFO]: [0;30;1m+------------------------------------+[m
+[12:10:13] [Server thread/INFO]:              [0;35;1mEconomy[0;35;22mPlus[m
+[12:10:13] [Server thread/INFO]:               [0;32;1mEnabling[m
+[12:10:13] [Server thread/INFO]: [0;30;1m[m
+[12:10:13] [Server thread/INFO]: [0;37;1m-> [0;31;1mLoading core![m
+[12:10:13] [Server thread/INFO]:    - [0;37;1mDatabase: [0;36;1mLoaded (SQLite)[m
+[12:10:13] [Server thread/INFO]:    - [0;37;1mVault: [0;33;22mHooked[m
+[12:10:13] [Server thread/INFO]:    - [0;37;1mEvents: [0;32;1mLoaded[m
+[12:10:13] [Server thread/INFO]:    - [0;37;1mCommands: [0;32;1mLoaded[m
+[12:10:13] [Server thread/INFO]: [0;30;1m[m
+[12:10:13] [Server thread/INFO]: [0;37;1m-> [0;31;1mLoading hooks![m
+[12:10:13] [Server thread/INFO]:    - [0;37;1mbStats: [0;32;1mLoaded[m
+[12:10:13] [Server thread/INFO]:    - [0;37;1mHolographicDisplays: [0;31;1mCan't find the jar![m
+[12:10:13] [Server thread/INFO]: [0;37;1m[m
+[12:10:13] [Server thread/INFO]: [0;37;1m-> [0;31;1mLoading placeholders:[m
+[12:10:13] [Server thread/INFO]:    - MVdWPlaceholderAPI: [0;31;1mNot found![m
+[12:10:13] [Server thread/INFO]:    - PlaceholderAPI: [0;31;1mNot found![m
+[12:10:13] [Server thread/INFO]: [0;37;1m[m
+[12:10:13] [Server thread/INFO]: [0;30;1m+---------------[[0;32;1m 116ms [0;30;1m]-------------+[m
+[12:10:13] [Server thread/INFO]: [QuickShop] Enabling QuickShop v4.0.9.7
+[12:10:13] [Server thread/INFO]: [QuickShop] QuickShop Reremake
+[12:10:13] [Server thread/INFO]: [QuickShop] Starting plugin self-test, please wait...
+[12:10:14] [Server thread/INFO]: [QuickShop] [OK] Signature Verify
+[12:10:14] [Server thread/INFO]: [QuickShop] [OK] EnvChecker SelfTest
+[12:10:14] [Server thread/INFO]: [QuickShop] [OK] Java Runtime Environment Version Test
+[12:10:14] [Server thread/INFO]: [QuickShop] Running QuickShop-Reremake on NMS version v1_17_R1 For Minecraft version 1.17.1
+[12:10:14] [Server thread/INFO]: [QuickShop] [OK] Spigot Based Server Test
+[12:10:14] [Server thread/INFO]: [QuickShop] [OK] Old QuickShop Test
+[12:10:14] [Server thread/INFO]: [QuickShop] [OK] ModdedServer Based Test
+[12:10:14] [Server thread/INFO]: [QuickShop] [OK] CoreSupport Test
+[12:10:14] [Server thread/WARN]: [QuickShop] [WARN] Virtual DisplayItem Support Test: ProtocolLib is not installed, virtual DisplayItem seems will not work on your server.
+[12:10:14] [Server thread/WARN]: [QuickShop] [WARN] PersistentStorageApi Support Test: Passed checks
+[12:10:14] [Server thread/WARN]: [QuickShop] [WARN] GameVersion supporting Test: Passed checks
+[12:10:14] [Server thread/WARN]: [QuickShop] [WARN] PacketListenerAPI Conflict Test: Passed checks
+[12:10:14] [Server thread/WARN]: [QuickShop] [WARN] Permission Manager Test: Passed checks
+[12:10:14] [Server thread/INFO]: [QuickShop] Reading the configuration...
+[12:10:14] [Server thread/INFO]: [QuickShop] Loading plugin translations files...
+[12:10:14] [Server thread/WARN]: [QuickShop] Unable to get language code, guessingen_en instead, If it's incorrect, please change game-language option in config.yml.
+[12:10:14] [Thread-14/INFO]: [QuickShop] Loading required files from Mojang API, Please allow up to 20 secs.
+[12:10:16] [Thread-14/WARN]: [QuickShop] Failed to update game assets from MojangAPI server because the language code en_en not supported by Minecraft.
+[12:10:16] [Server thread/INFO]: [QuickShop] Developers: PotatoCraft Studio, Netherfoam, Timtower, KaiNoMood, Ghost_chu, Mgazul, TiaraRinne, sandtechnology, Starmism, Chris6ix
+[12:10:16] [Server thread/INFO]: [QuickShop] Original author: Netherfoam, Timtower, KaiNoMood
+[12:10:16] [Server thread/INFO]: [QuickShop] Let's start loading the plugin
+[12:10:16] [Server thread/INFO]: [QuickShop] Chat processor selected: BUNGEECHAT
+[12:10:16] [Server thread/INFO]: [QuickShop] Loading plugin translations files...
+[12:10:16] [Server thread/WARN]: [QuickShop] Unable to get language code, guessingen_en instead, If it's incorrect, please change game-language option in config.yml.
+[12:10:16] [Thread-16/INFO]: [QuickShop] Loading required files from Mojang API, Please allow up to 20 secs.
+[12:10:17] [Thread-16/WARN]: [QuickShop] Failed to update game assets from MojangAPI server because the language code en_en not supported by Minecraft.
+[12:10:17] [Server thread/INFO]: [QuickShop] Loading items translations...
+[12:10:17] [Server thread/INFO]: [QuickShop] Loading enchantments translations...
+[12:10:18] [Server thread/INFO]: [QuickShop] Loading potions translations...
+[12:10:18] [Server thread/INFO]: [QuickShop] Setting up database...
+[12:10:18] [Server thread/INFO]: [QuickShop] Selected permission provider: Bukkit
+[12:10:18] [Server thread/INFO]: [QuickShop] Registering commands...
+[12:10:18] [Server thread/INFO]: [QuickShop] EventManager selected: BukkitEventManager
+[12:10:18] [Server thread/INFO]: [QuickShop] Loading shops from the database...
+[12:10:18] [Server thread/INFO]: [QuickShop] Successfully loaded 0 shops!
+[12:10:18] [Server thread/INFO]: [QuickShop] 0 shops will load after chunk have loaded, 0 shops will load after the world has loaded.
+[12:10:18] [Server thread/INFO]: [QuickShop] Registering listeners...
+[12:10:18] [Server thread/INFO]: [QuickShop] Registering DisplayCheck task....
+[12:10:18] [Server thread/INFO]: [QuickShop] Cleaning MsgUtils...
+[12:10:18] [Server thread/INFO]: [QuickShop] Cleaning purchase messages from the database that are over a week old...
+[12:10:18] [Server thread/INFO]: [QuickShop] Log actions is enabled, actions will log in the qs.log file!
+[12:10:18] [Server thread/INFO]: [QuickShop] QuickShop Loaded! 4479 ms.
+[12:10:18] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:10:18] [Server thread/INFO]: Done (131.628s)! For help, type "help"
+[12:10:18] [Server thread/INFO]: [QuickShop] Registering bStats metrics...
+[12:10:18] [Server thread/INFO]: [QuickShop] Metrics submitted.
+[12:10:18] [Server thread/INFO]: [QuickShop] Using economy system: EconomyPlus
+[12:10:18] [Server thread/WARN]: [QuickShop] QuickShop detected tax account not exists, we're trying to create one. If you see any errors, please change tax-account in config.yml to server owner in-game username
+[12:10:18] [Server thread/WARN]: [QuickShop] Cannot to create tax-account,  please change tax-account in config.yml to server owner in-game username
+[12:10:18] [Server thread/WARN]: [QuickShop] Tax account's player never played this server before, that may cause server lagg or economy system error, you should change that name. But if this warning not cause any issues, you can safety ignore this.
+[12:10:18] [Craft Scheduler Thread - 3/INFO]: [Vault] Checking for Updates ... 
+[12:10:18] [Server thread/INFO]: [0;33;1m--------- [0;37;1mHelp: Index [0;33;1m---------------------------[m
+[12:10:18] [Server thread/INFO]: [0;37;22mUse /help [n] to get page n of help.[m
+[12:10:18] [Server thread/INFO]: [0;33;22mAliases: [0;37;1mLists command aliases[m
+[12:10:18] [Server thread/INFO]: [0;33;22mBukkit: [0;37;1mAll commands for Bukkit[m
+[12:10:18] [Server thread/INFO]: [0;33;22mCustomOreGen: [0;37;1mAll commands for CustomOreGen[m
+[12:10:18] [Server thread/INFO]: [0;33;22mEconomyPlus: [0;37;1mAll commands for EconomyPlus[m
+[12:10:18] [Server thread/INFO]: [0;33;22mIridiumSkyblock: [0;37;1mAll commands for IridiumSkyblock[m
+[12:10:18] [Server thread/INFO]: [0;33;22mLuckPerms: [0;37;1mAll commands for LuckPerms[m
+[12:10:18] [Server thread/INFO]: [0;33;22mMinecraft: [0;37;1mAll commands for Minecraft[m
+[12:10:18] [Server thread/INFO]: [0;33;22mQuickShop: [0;37;1mAll commands for QuickShop[m
+[12:10:18] [Server thread/INFO]: [0;33;22mVault: [0;37;1mAll commands for Vault[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/advancement: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/attribute: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/bal: [0;37;1m[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/baltop: [0;37;1m[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/ban: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/ban-ip: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/banlist: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/bossbar: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/clear: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/clone: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/customoregen: [0;37;1mreloads the plugin[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/data: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/datapack: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/debug: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/defaultgamemode: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/deop: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/difficulty: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/eco: [0;37;1m[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/economyplus: [0;37;1m[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/effect: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/enchant: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/execute: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/experience: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/fill: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/forceload: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/function: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/gamemode: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/gamerule: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/give: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/help: [0;37;1mShows the help menu[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/iridiumskyblock: [0;37;1mMain plugin command[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/item: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/kick: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/kill: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/list: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/locate: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/locatebiome: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/loot: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/luckperms: [0;37;1mManage permissions[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/me: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/minecraft:help: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/minecraft:lp: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/minecraft:luckperms: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/minecraft:luckperms:lp: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/minecraft:luckperms:luckperms: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/minecraft:luckperms:perm: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/minecraft:luckperms:permission: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/minecraft:luckperms:permissions: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/minecraft:luckperms:perms: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/minecraft:perm: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/minecraft:permission: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/minecraft:permissions: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/minecraft:perms: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/minecraft:reload: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/msg: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/op: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/pardon: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/pardon-ip: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/particle: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/pay: [0;37;1m[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/perf: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/playsound: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/plugins: [0;37;1mGets a list of plugins running on the server[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/qs: [0;37;1mQuickShop command[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/recipe: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/reload: [0;37;1mReloads the server configuration and plugins[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/restart: [0;37;1mRestarts the server[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/save-all: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/save-off: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/save-on: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/say: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/schedule: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/scoreboard: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/seed: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/setblock: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/setidletimeout: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/setworldspawn: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/spawnpoint: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/spectate: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/spigot: [0;37;1mSpigot related commands[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/spreadplayers: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/stop: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/stopsound: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/summon: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/tag: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/team: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/teammsg: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/teleport: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/tell: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/tellraw: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/time: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/timings: [0;37;1mManages Spigot Timings data to see performance of the server.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/title: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/tm: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/tp: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/tps: [0;37;1mGets the current ticks per second for the server[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/trigger: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/vault-convert: [0;37;1mConverts all data in economy1 and dumps it into economy2[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/vault-info: [0;37;1mDisplays information about Vault[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/version: [0;37;1mGets the version of this server including any plugins in use[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/w: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/weather: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/whitelist: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/worldborder: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [0;33;22m/xp: [0;37;1mA Mojang provided command.[m
+[12:10:18] [Server thread/INFO]: [IridiumSkyblock] You are using the latest version of IridiumSkyblock.
+[12:10:19] [Server thread/INFO]: com.mojang.authlib.GameProfile@98625c5[id=<null>,name=SkyeEyks,properties={},legacy=false] (/192.168.18.7:58417) lost connection: Disconnected
+[12:10:21] [Craft Scheduler Thread - 3/INFO]: [Vault] No new version available
+[12:10:28] [User Authenticator #1/INFO]: UUID of player SkyeEyks is 80ef807d-02e9-44d5-a648-0d4d5a5e4402
+[12:10:29] [Server thread/INFO]: SkyeEyks[/192.168.18.7:55734] logged in with entity id 199 at ([IridiumSkyblock]150.30000001192093, 93.0, -146.69999998807907)
+[12:10:35] [Server thread/INFO]: SkyeEyks issued server command: /is shop
+[12:14:47] [Server thread/INFO]: Stopping the server
+[12:14:47] [Server thread/INFO]: Stopping server
+[12:14:47] [Server thread/INFO]: [QuickShop] Disabling QuickShop v4.0.9.7
+[12:14:47] [Server thread/INFO]: [QuickShop] QuickShop is finishing remaining work, this may need a while...
+[12:14:47] [Server thread/INFO]: [QuickShop] Please wait for the data to flush its data...
+[12:14:47] [Server thread/INFO]: [EconomyPlus] Disabling EconomyPlus v1.6
+[12:14:47] [Server thread/INFO]: [0;30;1m+------------------------------------+[m
+[12:14:47] [Server thread/INFO]:              [0;35;1mEconomy[0;35;22mPlus[m
+[12:14:47] [Server thread/INFO]:               [0;31;1mDisabling[m
+[12:14:47] [Server thread/INFO]: [m
+[12:14:47] [Server thread/INFO]: [0;37;1m-> [0;31;1mUnhooking from Vault[m
+[12:14:47] [Server thread/INFO]: [0;37;1m-> [0;31;1mClosing database connection[m
+[12:14:47] [Server thread/INFO]: [0;30;1m+------------------------------------+[m
+[12:14:47] [Server thread/INFO]: [IridiumSkyblock] Disabling IridiumSkyblock v3.0.6
+[12:14:47] [Server thread/INFO]: [IridiumSkyblock] -------------------------------
+[12:14:47] [Server thread/INFO]: [IridiumSkyblock] 
+[12:14:47] [Server thread/INFO]: [IridiumSkyblock] IridiumSkyblock Disabled!
+[12:14:47] [Server thread/INFO]: [IridiumSkyblock] 
+[12:14:47] [Server thread/INFO]: [IridiumSkyblock] -------------------------------
+[12:14:47] [Server thread/INFO]: [CustomOreGen] Disabling CustomOreGen v1.3.31-SNAPSHOT
+[12:14:47] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[12:14:47] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.3.47
+[12:14:47] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[12:14:47] [Server thread/INFO]: [LuckPerms] Closing storage...
+[12:14:47] [Server thread/INFO]: [LuckPerms] Goodbye!
+[12:14:47] [Server thread/INFO]: Saving players
+[12:14:47] [Server thread/INFO]: SkyeEyks lost connection: Server closed
+[12:14:47] [Server thread/INFO]: SkyeEyks left the game
+[12:14:47] [Server thread/INFO]: Saving worlds
+[12:14:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[12:14:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[12:14:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[12:15:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[IridiumSkyblock]'/minecraft:iridiumskyblock
+[12:15:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[IridiumSkyblock_nether]'/minecraft:iridiumskyblock_nether
+[12:15:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[IridiumSkyblock_the_end]'/minecraft:iridiumskyblock_the_end
+[12:15:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[12:15:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12:15:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12:15:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (IridiumSkyblock): All chunks are saved
+[12:15:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12:15:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12:15:08] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

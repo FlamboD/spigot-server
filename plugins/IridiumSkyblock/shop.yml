@@ -52,23 +52,13 @@ categories:
     inventoryRows: 5
   Miscellaneous:
     item:
-      material: "SPIDER_EYE"
+      material: "SADDLE"
       amount: 1
-      displayName: "&9&lMob Drops"
+      displayName: "&9&lMiscellaneous"
       headData: null
       headOwner: null
       lore: []
-      slot: 22
-    inventoryRows: 5
-  Spawners:
-    item:
-      material: "SPAWNER"
-      amount: 1
-      displayName: "&9&lSpawners"
-      headData: null
-      headOwner: null
-      lore: []
-      slot: 24
+      slot: 23
     inventoryRows: 4
 items:
   Blocks:
@@ -1060,32 +1050,6 @@ items:
     buyCost:
       vault: 5000.0
       crystals: 50
-    sellReward:
-      vault: 0.0
-      crystals: 0
-  Spawners:
-  - name: "&9&lEgg"
-    type: "EGG"
-    lore: []
-    command: null
-    defaultAmount: 1
-    slot: 12
-    buyCost:
-      vault: 100.0
-      crystals: 0
-    sellReward:
-      vault: 10.0
-      crystals: 0
-  - name: "&9&lZombie spawner"
-    type: "SPAWNER"
-    damage: 1
-    lore: []
-    command: null
-    defautAmount: 1
-    slot: 13
-    buyCost:
-      vault: 100.0
-      crystals: 0
     sellReward:
       vault: 0.0
       crystals: 0
