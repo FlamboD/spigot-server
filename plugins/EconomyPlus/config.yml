@@ -48,7 +48,7 @@ Format:
   Q: "Q"
 
 # Set a user balance on join
-Starting-Balance: 0.00
+Starting-Balance: 100.00
 
 # Use the decimal
 # If true it's 0.00, if false is 0
