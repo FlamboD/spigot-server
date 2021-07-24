@@ -60,6 +60,16 @@ categories:
       lore: []
       slot: 23
     inventoryRows: 4
+   Spawners:
+    item:
+        material: "SPAWNER"
+        amount: 1
+        displayName: "&9&lSpawners"
+        headData: null
+        headOwner: null
+        lore: []
+        slot: 24
+    inventoryRows: 4
 items:
   Blocks:
   - name: "&9&lGrass Block"
